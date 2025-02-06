@@ -1,7 +1,9 @@
+
 from fastapi import FastAPI, Query, status
 from fastapi.responses import JSONResponse
 import requests
 app = FastAPI()
+
 # Enable CORS
 from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
